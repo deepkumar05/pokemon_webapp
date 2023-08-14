@@ -4,6 +4,7 @@ import { firebaseAuth, firebaseDB, usersRef } from "../utils/firebaseConfig";
 import { FcGoogle } from "react-icons/fc";
 import { addDoc, collection, getDocs, query, where } from "firebase/firestore";
 import { setUserStatus } from "../app/slices/AppSlice";
+import { setToast } from "../slices/AppSlice";
 function Login() {
   const dispatch = useAppDispatch();
 
@@ -23,6 +24,7 @@ function Login() {
         });
       }
       dispatch(setUserStatus({ email }));
+      dispatch(setToast("Logged in successfully."));
     }
   };
 
