@@ -3,8 +3,7 @@ import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { firebaseAuth, firebaseDB, usersRef } from "../utils/firebaseConfig";
 import { FcGoogle } from "react-icons/fc";
 import { addDoc, collection, getDocs, query, where } from "firebase/firestore";
-import { setUserStatus } from "../app/slices/AppSlice";
-import { setToast } from "../slices/AppSlice";
+import { setToast, setUserStatus } from "../app/slices/AppSlice";
 function Login() {
   const dispatch = useAppDispatch();
 
