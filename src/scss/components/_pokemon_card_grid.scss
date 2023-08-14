@@ -35,10 +35,10 @@
       font-size: 1rem;
       cursor: pointer;
       .trash {
-        color: #e21b5a;
+        color: red;
       }
       .plus {
-        color: #27af0f;
+        color: green;
       }
     }
     &-compare {
@@ -48,7 +48,7 @@
       font-size: 1.3rem;
       cursor: pointer;
       svg {
-        color: #1f51ff;
+        color: rgb(0, 217, 255);
       }
     }
     &-title {
