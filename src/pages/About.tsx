@@ -19,9 +19,6 @@ function About() {
         <a href="https://www.instagram.com/deep_ds_14/" target='_blank' rel="noreferrer">
           <FaInstagram />
         </a>
-        <a href="https://www.linkedin.com/in/krdeepanshu/" target='_blank' rel="noreferrer">
-          <FaLinkedin />
-        </a>
         <a href="https://twitter.com/Deepans07930899" target='_blank' rel="noreferrer">
           <FaTwitter />
         </a>
